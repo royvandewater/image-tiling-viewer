@@ -1,0 +1,21 @@
+{
+  "name": "image-tiling-viewer",
+  "version": "1.0.0",
+  "description": "Online tool for viewing an image intended to be tiled",
+  "scripts": {
+    "start": "http-server -a 127.0.0.1 -p 3000 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royvandewater/image-tiling-viewer.git"
+  },
+  "author": "Roy van de Water",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/royvandewater/image-tiling-viewer/issues"
+  },
+  "homepage": "https://github.com/royvandewater/image-tiling-viewer#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
